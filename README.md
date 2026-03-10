@@ -1,75 +1,176 @@
-# Agora Hackathon Template
+# Preply x Agora Hackathon: AI Agents for NextGen Language Learning [March 20-21, 2026]
 
-This repository serves as a template for creating new Agora hackathon repositories. It provides a streamlined way to set up hackathon documentation with consistent formatting and structure. It includes a setup script to automatically generate the README.md, hackathon-rating-rubric.md, and Thought_Starters.md files.
+Welcome to the Preply x Agora Hackathon in Barcelona! Join us for two days of building AI-powered language learning experiences. With a prize pool of €17,500, this hackathon brings together developers, designers, and AI enthusiasts to reimagine how people learn languages using real-time voice AI agents, video avatars, and voice biomarkers.
 
-## Quick Start
+**Prizes:**
+- 🥇 1st Place: €10,000 + Preply fast-track opportunity
+- 🥈 2nd Place: €5,000
+- 🥉 3rd Place: €2,500
 
-1. **Create a new repository** using this template (click the "Use this template" button on GitHub)  
-   ![How to create a new repository from this template](./.github/images/create_from_template_small.gif)
-2. **Update the configuration** in `hackathon_config.yaml` with your event details
-3. **Run the generator**:
-   ```bash
-   npm install
-   npm run setup
-   ```
-4. **Review and commit** the customized files
+**Tech Partners:** Agora, OpenAI, AWS, Anam, Thymia
 
-That's it! The setup script will automatically generate all necessary documentation files and clean up after itself.
 
-## What Gets Generated
 
-The generator will create three main files:
+## 🎯 **Theme: AI Agents for NextGen Language Learning**
 
-1. `README.md` - Main hackathon documentation
-2. `hackathon-rating-rubric.md` - Judging criteria and scoring
-3. `Thought_Starters.md` - Project ideas and inspiration
-4. `evaluation_template.md` - Evaluation template based on the judging criteria
+Build AI-powered language learning experiences using Agora's Conversational AI Engine. Create voice AI agents that help people learn languages through real-time conversation, pronunciation practice, cultural immersion, and personalized feedback — optionally enhanced with video avatars (Anam) and voice biomarkers (Thymia).
 
-## Configuration
+### Focus Areas
+- Visualizing Learning Progress — Track and display learner advancement with AI-driven analytics
+- Accelerating Learning with Agents — Build AI tutors that adapt to individual learning styles and pace
+- Live Learning & Real-Time Context — Create immersive conversational experiences with real-time feedback
 
-The `hackathon_config.yaml` file contains all the customizable elements:
 
-### Core Settings
-- **`event`**: Event details (name, date, description)
-- **`theme`**: Hackathon theme and focus areas
-  - `type`: Either `'specific'` or `'open'`
-  - `title`: Theme title (for specific themes)
-  - `description`: Theme description
-  - `focus_areas`: List of specific areas to focus on
-  - `technologies`: List of recommended technologies
-- **`contact`**: Contact information and communication channels
-- **`submission_guidelines`**: Fork, clone, and submission instructions
+### Recommended Technologies
+- Agora Conversational AI Engine
+- Agora RTC SDK
+- OpenAI API
+- Anam Video Avatars
+- Thymia Voice Biomarkers
+- AWS
 
-### Judging & Evaluation
-- **`judges`**: Panel of judges with names, titles, organizations, and expertise areas
-- **`judging_criteria`**: Scoring categories with weights (must total 100%)
-- **`evaluation_process`**: Multi-phase evaluation workflow
-  - `overview`: High-level description of the process
-  - `phases`: List of evaluation phases (review, demos, deliberation, announcement)
-  - `scoring_methodology`: How scores are calculated (1-5 scale)
 
-### Project Requirements
-- **`project_constraints`**: Technical requirements and rules
-  - `required_technologies`: Must-use technologies with docs links
-  - `rules`: Project rules and guidelines
-  - `bonus_criteria`: Ways to earn bonus points
 
-### Resources
-- **`resources`**: Starter code and documentation
-  - `starter_repos`: GitHub repos with descriptions
-  - `documentation`: Official docs and console links
+---
 
-### Ideas
-- **`thought_starters`**: Project ideas and inspiration
+## 🔧 **Project Requirements & Constraints**
 
-## After Generation
+### Required Technologies
+All submissions **must** integrate the following:
 
-After running the generator:
+| Technology | Description | Documentation |
+|------------|-------------|---------------|
+| **Agora Conversational AI Engine** | Voice-to-voice AI agent platform with real-time STT, LLM, and TTS pipeline | [Docs](https://docs.agora.io/en/conversational-ai/overview/product-overview) |
 
-1. Review the generated files
-2. Make any necessary manual adjustments
-3. Commit the changes to your repository
 
-## Support
+### Rules
+- All projects must integrate the Agora Conversational AI Engine
+- Projects must address a language learning use case
+- Code must be original work created during the hackathon
+- Teams may use pre-existing libraries, frameworks, and APIs (with proper attribution)
+- Teams must submit a working demo and source code via pull request
 
-For questions or issues, please contact the Agora Developer Relations team.
+
+### Bonus Point Opportunities
+Go above and beyond for extra credit:
+- ⭐ Integration of Anam video avatars for face-to-face language practice
+- ⭐ Integration of Thymia voice biomarkers to detect learner stress, fatigue, or frustration
+- ⭐ Use of additional Agora products (RTM for messaging, Cloud Recording, etc.)
+- ⭐ Creative use of OpenAI or AWS services
+
+
+---
+
+## 📚 **Resources & Starter Code**
+
+Get up and running quickly with these official repositories:
+
+### Starter Repositories
+
+| Repository | Description |
+|------------|-------------|
+| [**agent-samples**](https://github.com/AgoraIO-Conversational-AI/agent-samples) | Full-stack voice and video AI agent with Python backend and React frontends |
+| [**vibe-coding-lovable**](https://github.com/AgoraIO-Conversational-AI/vibe-coding-lovable) | Lovable-optimized starter — build a voice AI agent in your browser with zero local setup |
+| [**vibe-coding-v0**](https://github.com/AgoraIO-Conversational-AI/vibe-coding-v0) | v0-optimized starter — build a voice AI agent with Vercel hosting |
+| [**server-custom-llm**](https://github.com/AgoraIO-Conversational-AI/server-custom-llm) | Custom LLM middleware for RAG, tool calling, Thymia biomarkers, and conversation memory |
+
+
+### Documentation
+- [Agora ConvoAI Documentation](https://docs.agora.io/en/conversational-ai/overview/product-overview)
+- [Agora Console (get your App ID)](https://console.agora.io/)
+- [Thymia Integration Recipe](https://github.com/AgoraIO-Conversational-AI/agent-samples/blob/main/recipes/thymia.md)
+- [Hackathon Guide — Build Voice & Video AI Agents in Minutes](docs/guide.md)
+
+
+---
+
+Follow the steps below to **fork, develop, and submit** your project.
+
+---
+
+## 📌 **Submission Guidelines**
+
+### **1. Fork this Repository**
+
+Click the Fork button on the top right to create a copy of this repository under your GitHub account.
+
+### **2. Clone Your Forked Repository**
+
+After forking, clone the repository to your local machine.
+
+```bash
+git clone https://github.com/YOUR-GITHUB-USERNAME/hackathon-2026-03-20-agora-preply.git
+cd hackathon-2026-03-20-agora-preply
+```
+
+### **3. Create Your Team Folder**
+
+Inside the `submissions/` directory, create a new folder using your team name.  
+Example:
+
+submissions/
+ ├── team-name/
+ │   ├── README.md  # (Required: Describe your project)
+ │   ├── demo.mp4  # (Required: A demo video)
+ │   ├── src/  # (Your source code)
+ │   └── docs/  # (Any documentation or images)
+
+
+### **4. Work on Your Project**
+
+- Develop your project inside your team folder.
+- Include a `README.md` file explaining your project, its setup, and usage. Include any special instructions to run it.
+- Include a short demo video or screenshots in the `docs/` folder.
+
+### **5. Commit and Push Changes**
+
+```bash
+git add .
+git commit -m "Submission commit - Team [Your Team Name]"
+git push
+```
+
+### **6. Submit via Pull Request**
+
+1. Go to your forked repo on GitHub.
+2. Click the **"New Pull Request"** button.
+3. Set the base repository to `AgoraIO-Community/hackathon-2026-03-20-agora-preply` and compare it with your forked branch.
+4. In the PR description, include:
+   - Team Name
+   - Project Name
+   - A brief summary of the project
+   - Any special instructions of features to focus on or to avoid because they may not be finished. (If applicable)
+5. Click **"Create Pull Request"** to submit your project.
+
+---
+
+## 🏆 **Judging Criteria**
+
+Projects will be evaluated based on:
+
+✅ **Innovation** (15%) – Originality of the language learning concept and creative use of AI agent capabilities
+✅ **Functionality** (20%) – How well the language learning agent works — conversation quality, accuracy, and reliability
+✅ **Impact** (5%) – Potential to improve real-world language learning outcomes
+✅ **Technical Execution** (20%) – Code quality, architecture decisions, and effective integration of Agora ConvoAI
+✅ **Documentation and Ease of Testing** (20%) – Quality of documentation and how easily judges can test the language learning experience
+✅ **User Experience** (20%) – Quality of the learner experience — natural conversation flow, helpful feedback, and engaging interaction
+
+### Judging Panel
+- **TBD** – TBD, Preply
+- **TBD** – TBD, Agora
+- **TBD** – TBD, TBD
+
+
+📋 See the full [Judging Rubric](./hackathon-rating-rubric.md) for detailed scoring criteria and evaluation process.
+
+---
+
+## ❓ **Need Help?**
+
+For any questions, reach out to [**Hackathon Organizers (Preply & Agora)**](mailto:hackathon@preply.com) or join our Discord channel at [hackathon-support](https://discord.gg/agora-hackathon).
+
+
+For urgent matters during the event, reach out to the organizers directly at the venue.
+
+
+**Happy hacking and good luck!** 🚀
