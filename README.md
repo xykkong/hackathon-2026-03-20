@@ -63,7 +63,7 @@ Go above and beyond for extra credit:
 
 ## 📚 **Resources & Starter Code**
 
-Get up and running quickly with these official repositories:
+Try the voice and video AI agents live at **[convoai-demo.agora.io](https://convoai-demo.agora.io/)** — then build your own with these starter repositories:
 
 ### Starter Repositories
 

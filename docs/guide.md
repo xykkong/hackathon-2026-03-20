@@ -6,6 +6,8 @@ Whether you're joining the Agora + Anam + Thymia hackathon or just exploring con
 
 A real-time voice AI agent running in your browser. You speak, the agent listens, thinks, and talks back — with sub-second latency, interruption handling, and live transcription. If you want to go further, add a video avatar face (powered by Anam) or real-time voice biomarker analysis (powered by Thymia).
 
+Try it now at **[convoai-demo.agora.io](https://convoai-demo.agora.io/)** — no setup required.
+
 Everything runs on [Agora's Conversational AI platform](https://docs.agora.io/en/conversational-ai/overview/product-overview). The open-source [agent-samples](https://github.com/AgoraIO-Conversational-AI/agent-samples) repo gives you a Python backend and React frontends that work out of the box.
 
 ## Three Ways to Build
