@@ -48,8 +48,14 @@ The agent reads `AGENT.md`, installs dependencies, asks for your API keys, confi
 
 **Install Claude Code:**
 
+You need a Claude Pro, Max, Teams, or Enterprise subscription ($20/month+), or an Anthropic API account with credits.
+
+Option 1 — **Claude Desktop app** (easiest, no terminal required): Download from [claude.ai/download](https://claude.ai/download). Claude Code is built into the desktop app. Open it, paste the prompt above, and go.
+
+Option 2 — **Terminal install** (Mac / Windows / Linux):
+
 ```bash
-# Mac
+# Mac / Linux
 curl -fsSL https://claude.ai/install.sh | bash
 
 # Windows (PowerShell)
