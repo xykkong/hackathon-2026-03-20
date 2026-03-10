@@ -80,6 +80,12 @@ curl -fsSL https://claude.ai/install.sh | bash
 irm https://claude.ai/install.ps1 | iex
 ```
 
+**Optional: Install the Agora skill** — gives Claude Code built-in knowledge of Agora SDKs, ConvoAI, token generation, and more:
+
+```bash
+npx skills add github:AgoraIO-Conversational-AI/agora-skills
+```
+
 ### Lovable (Browser, Zero Local Setup)
 
 [Lovable](https://lovable.dev) generates full-stack React apps in your browser. It uses Vite + React with Supabase Edge Functions for the backend — nothing to install locally.
