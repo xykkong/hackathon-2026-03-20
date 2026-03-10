@@ -9,7 +9,11 @@ Welcome to the Preply x Agora Hackathon in Barcelona! Join us for two days of bu
 
 **Tech Partners:** Agora, OpenAI, AWS, Anam, Thymia
 
-📖 **[Read the Hackathon Guide](docs/guide.md)** — everything you need to get a voice or video AI agent running in minutes, including setup with AI coding assistants, API credentials, Anam avatars, and Thymia biomarkers.
+---
+
+## 📖 **[Coding Guide (for AI and humans)](docs/guide.md)**
+
+Everything you need to get a voice or video AI agent running in minutes — setup with AI coding assistants (Claude Code, Codex CLI, Gemini CLI, and more), API credentials, Anam avatars, Thymia biomarkers, and vibe coding platforms (Lovable, v0).
 
 ---
 
@@ -78,7 +82,7 @@ Try the voice and video AI agents live at **[convoai-demo.agora.io](https://conv
 
 
 ### Documentation
-- [**Hackathon Guide — Build Voice & Video AI Agents in Minutes**](docs/guide.md)
+- [**Coding Guide (for AI and humans)**](docs/guide.md)
 - [Agora ConvoAI Documentation](https://docs.agora.io/en/conversational-ai/overview/product-overview)
 - [Agora Console (get your App ID)](https://console.agora.io/)
 - [Thymia Integration Recipe](https://github.com/AgoraIO-Conversational-AI/agent-samples/blob/main/recipes/thymia.md)
