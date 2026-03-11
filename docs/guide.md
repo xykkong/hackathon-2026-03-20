@@ -6,7 +6,7 @@ Whether you're joining the Agora + Anam + Thymia hackathon or just exploring con
 
 ## Contents
 
-- [What You'll Build](#what-youll-build)
+- [What You'll Build (with this guide)](#what-youll-build-with-this-guide)
 - [Three Ways to Build](#three-ways-to-build)
   - [Terminal AI Coding Agents](#terminal-ai-coding-agents-local-most-capable)
   - [Lovable](#lovable-browser-zero-local-setup)
@@ -22,9 +22,9 @@ Whether you're joining the Agora + Anam + Thymia hackathon or just exploring con
 - [Terminal Basics](#terminal-basics-if-youre-new)
 - [Resources](#resources)
 
-## What You'll Build
+## What You'll Build (with this guide)
 
-A real-time voice AI agent running in your browser. You speak, the agent listens, thinks, and talks back — with sub-second latency, interruption handling, and live transcription. If you want to go further, add a video avatar face (powered by Anam) or real-time voice biomarker analysis (powered by Thymia).
+A real-time voice AI agent running in your browser. You speak, the agent listens, thinks, and talks back — with sub-second latency, interruption handling, and live transcription. If you want to go further, add a video avatar face (powered by Anam) or real-time voice biomarker analysis (powered by Thymia). Building with a different Agora product? You'll still need [Agora credentials](#agora-credentials-always-required) — then head to the [Agora docs](https://docs.agora.io/) for your product.
 
 Try it now at **[convoai-demo.agora.io](https://convoai-demo.agora.io/)** — no setup required.
 
