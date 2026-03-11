@@ -67,8 +67,7 @@ All submissions **must** integrate **at least one** of the following Agora produ
 
 Go above and beyond for extra credit:
 
-- ⭐ Integration of Anam video avatars for face-to-face language practice
-- ⭐ Integration of Thymia voice biomarkers to detect learner stress, fatigue, or frustration
+- ⭐ Integration of third-party APIs (Anam avatars, Thymia biomarkers, OpenAI, etc.)
 - ⭐ Use of multiple Agora products together
 - ⭐ Language learning increased engagement
 
