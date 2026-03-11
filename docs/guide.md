@@ -24,7 +24,7 @@ Whether you're joining the Agora + Anam + Thymia hackathon or just exploring con
 
 ## What You'll Build (with this guide)
 
-A real-time voice AI agent running in your browser. You speak, the agent listens, thinks, and talks back — with sub-second latency, interruption handling, and live transcription. If you want to go further, add a video avatar face (powered by Anam) or real-time voice biomarker analysis (powered by Thymia). Building with a different Agora product? You'll still need [Agora credentials](#agora-credentials-always-required) — then head to the [Agora docs](https://docs.agora.io/) for your product.
+A real-time voice AI agent running in your browser. You speak, the agent listens, thinks, and talks back — with sub-second latency, interruption handling, and live transcription. If you want to go further, add a video avatar face (powered by Anam) or real-time voice biomarker analysis (powered by Thymia). Building with a different Agora product? You'll still need [Agora credentials](#agora-credentials-always-required) — then head to the [Agora docs](https://docs.agora.io/) for your product. If you're using Claude Code, the [Agora skill](#install-the-agora-skill) covers all Agora products, not just ConvoAI.
 
 Try it now at **[convoai-demo.agora.io](https://convoai-demo.agora.io/)** — no setup required.
 
@@ -82,7 +82,9 @@ curl -fsSL https://claude.ai/install.sh | bash
 irm https://claude.ai/install.ps1 | iex
 ```
 
-**Optional: Install the Agora skill** — gives Claude Code built-in knowledge of Agora SDKs, ConvoAI, token generation, and more:
+#### Install the Agora Skill
+
+Optional — gives Claude Code built-in knowledge of all Agora products (RTC, RTM, ConvoAI, Cloud Recording), token generation, and more:
 
 ```bash
 npx skills add github:AgoraIO-Conversational-AI/agora-skills
