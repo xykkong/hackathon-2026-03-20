@@ -20,6 +20,45 @@ Everything you need to get an Agora Conversational voice or video AI agent runni
 
 ---
 
+## 📅 **Event Agenda**
+
+### Friday, March 20
+
+| Time | Activity |
+|------|----------|
+| 5:00-5:30 PM | Registration (lobby) |
+| 5:30-6:30 PM | Keynote (Max, Ben, Preply) — welcome, keynotes, agenda |
+| 6:30-8:00 PM | Pitching projects, creating teams, mentoring sessions |
+| 8:00-8:30 PM | Closing remarks, next day agenda |
+
+**Mentoring Rooms (Friday only):**
+
+| Room | Mentor |
+|------|--------|
+| Power People's Progress A | Agora (Ben) |
+| Power People's Progress B | OpenAI (Max) |
+| Portuguese | Thymia (TBD) |
+| French | Anam (TBD) |
+| Catalan | AWS (TBD) |
+| Spanish & Ukrainian | Preply (TBD) |
+
+### Saturday, March 21
+
+| Time | Activity |
+|------|----------|
+| 9:00-10:00 AM | Breakfast |
+| 10:00 AM | Day agenda |
+| 10:00 AM-1:00 PM | Morning coding |
+| 1:00-2:00 PM | Lunch |
+| 2:00-4:00 PM | Afternoon coding & submissions |
+| 4:00-5:00 PM | Presentations |
+| 5:00 PM | Award ceremony |
+| 5:00-6:00 PM | Networking & closing |
+
+**Teams:** Organized via Discord channels. Each team gets a name, channel, and number. Unassigned participants will be placed by Borys and Tamas.
+
+---
+
 ## 🎯 **Theme: AI Agents for NextGen Language Learning**
 
 Build AI-powered language learning experiences using Agora's Conversational AI Engine. Create voice AI agents that help people learn languages through real-time conversation, pronunciation practice, cultural immersion, and personalized feedback — optionally enhanced with video avatars (Anam) and voice biomarkers (Thymia).
@@ -45,9 +84,9 @@ Build AI-powered language learning experiences using Agora's Conversational AI E
 
 ## 🔧 **Project Requirements & Constraints**
 
-### Required Technologies
+### Recommended Technologies
 
-All submissions **must** integrate **at least one** of the following Agora products:
+The following Agora products are available to all teams. Integrating Agora ConvoAI earns a bonus (see [Judging Criteria](#judging-criteria)).
 
 | Technology                  | Description                                             | Documentation                                                                |
 | --------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -59,7 +98,6 @@ All submissions **must** integrate **at least one** of the following Agora produ
 
 ### Rules
 
-- All projects must integrate at least one Agora product
 - Projects must address a language learning use case
 - Code must be original work created during the hackathon
 - Teams may use pre-existing libraries, frameworks, and APIs (with proper attribution)
@@ -67,12 +105,7 @@ All submissions **must** integrate **at least one** of the following Agora produ
 
 ### Bonus Point Opportunities
 
-Go above and beyond for extra credit:
-
-- ⭐ Integration of third-party APIs (Anam avatars, Thymia biomarkers, OpenAI, etc.)
-- ⭐ Use of multiple Agora products together
-- ⭐ Features that increase learner engagement
-- ⭐ **AI Craftsmanship** — Show us *how* you built with AI. Include your planning process, prompting strategies, model choices, test-driven workflows, and iteration logs. See [How We Built This](#how-we-built-this) below.
+- ⭐ **Agora ConvoAI Integration** — Integrate Agora Conversational AI into your project for up to +1 bonus point (see [Judging Criteria](#judging-criteria))
 
 ---
 
@@ -173,27 +206,31 @@ We want to see *how* you work with AI, not just what you built. Include a `HOW_W
 - **Testing & iteration** — How did you verify AI-generated code? Did you use test-driven development, manual testing, or AI-assisted debugging?
 - **Challenges & pivots** — Where did AI struggle? How did you course-correct?
 
-This doesn't need to be long — a few paragraphs with concrete examples is enough. Screenshots of prompts, conversation logs, or before/after iterations are great. This feeds into the **AI Craftsmanship** bonus when judging.
+This doesn't need to be long — a few paragraphs with concrete examples is enough. Screenshots of prompts, conversation logs, or before/after iterations are great. This feeds into the **Quality** category when judging.
 
 ---
 
 ## 🏆 **Judging Criteria**
 
-Projects will be evaluated based on:
+Each judge scores every category 1-5. All categories are weighted equally at 20%.
 
-✅ **Innovation** (15%) – Originality of the language learning concept and creative use of AI agent capabilities
-✅ **Functionality** (20%) – How well the language learning agent works — conversation quality, accuracy, and reliability
-✅ **Impact** (5%) – Potential to improve real-world language learning outcomes
-✅ **Technical Execution** (20%) – Code quality, architecture decisions, and effective integration of Agora
-✅ **Documentation and Ease of Testing** (20%) – Quality of documentation and how easily judges can test the language learning experience
-✅ **User Experience** (20%) – Quality of the learner experience — natural conversation flow, helpful feedback, and engaging interaction
-⭐ **AI Craftsmanship** (bonus, up to +1) – Documented AI development process via `HOW_WE_BUILT.md` (see above)
+| Category | 1 (Low) | 5 (High) |
+|----------|---------|----------|
+| **Technology Use** | Single technology/provider used | Multiple technologies (STT, TTS, LLMs, Avatars) combined |
+| **Relevancy** | Not relevant for Preply or learning | Could be added to the product tomorrow |
+| **Product Scope** | Addresses a niche problem | Aims to solve a global problem affecting millions |
+| **Presentation & Demo** | Submitted and presented but no live demo | Live demo, great pitch ready for YCombinator |
+| **Quality** | Barely working, clunky UX | Well thought-out UX, no bugs, good quality project. Includes AI Craftsmanship (`HOW_WE_BUILT.md`) |
+
+⭐ **Bonus: Agora ConvoAI Integration** (up to +1) — Teams that integrate Agora Conversational AI earn up to 1 bonus point.
+
+**Maximum score: 6** (5 base + 1 Agora bonus)
 
 ### Judging Panel
 
-- **TBD** – TBD, Preply
-- **TBD** – TBD, Agora
-- **TBD** – TBD, TBD
+- **Petro** – Preply
+- **Ben** – Agora
+- **Max** – OpenAI
 
 📋 See the full [Judging Rubric](./hackathon-rating-rubric.md) for detailed scoring criteria and evaluation process.
 

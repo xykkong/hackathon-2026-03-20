@@ -2,7 +2,7 @@
 
 Whether you're joining the Preply x Agora hackathon or just exploring conversational AI for the first time, this guide gets you from zero to a working AI agent you can talk to. The entire setup takes one prompt to an AI coding assistant.
 
-> **Note:** This guide focuses on Agora Conversational AI — the most popular path for this hackathon. However, the hackathon accepts **any Agora product** (RTC, RTM, App Builder, Cloud Recording). See the [hackathon README](../README.md) for the full list of accepted technologies.
+> **Note:** This guide focuses on Agora Conversational AI — the most popular path for this hackathon. Agora is optional, but integrating Agora ConvoAI earns a bonus point. The hackathon also supports other Agora products (RTC, RTM, App Builder, Cloud Recording). See the [hackathon README](../README.md) for the full list of recommended technologies.
 
 ## Contents
 

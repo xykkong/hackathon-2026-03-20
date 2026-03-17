@@ -2,34 +2,34 @@
 
 ## Overview
 
-This rubric provides a structured framework for evaluating hackathon submissions. Each project will be scored across multiple categories on a scale of 1-5, with specific criteria for each score level.
+This rubric provides a structured framework for evaluating hackathon submissions. Each project will be scored across 5 categories on a scale of 1-5, with specific criteria for each score level. All categories are weighted equally at 20%.
 
 ---
 
 ## Judging Panel
 
-### TBD
+### Petro
 
-**TBD** | Preply  
+**Petro** | Preply
 _Expertise: Language learning and EdTech_
 
-### TBD
+### Ben
 
-**TBD** | Agora  
+**Ben** | Agora
 _Expertise: Real-time communication and Conversational AI_
 
-### TBD
+### Max
 
-**TBD** | TBD  
+**Max** | OpenAI
 _Expertise: AI and machine learning_
 
 ---
 
 ## Project Requirements
 
-### Required Technologies
+### Recommended Technologies
 
-All submissions **must** integrate **at least one** of the following Agora products:
+The following Agora products are available to all teams. Integrating Agora ConvoAI earns a bonus (see [Agora ConvoAI Integration Bonus](#bonus-agora-convoai-integration-up-to-1)).
 
 | Technology                  | Description                                             | Documentation                                                                |
 | --------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -41,8 +41,6 @@ All submissions **must** integrate **at least one** of the following Agora produ
 
 ### Project Rules
 
-- All projects must integrate at least one Agora product
-
 - Projects must address a language learning use case
 
 - Code must be original work created during the hackathon
@@ -50,16 +48,6 @@ All submissions **must** integrate **at least one** of the following Agora produ
 - Teams may use pre-existing libraries, frameworks, and APIs (with proper attribution)
 
 - Teams must submit a working demo and source code via pull request
-
-### Bonus Point Opportunities
-
-- Integration of third-party APIs (Anam avatars, Thymia biomarkers, OpenAI, etc.)
-
-- Use of multiple Agora products together
-
-- Features that increase learner engagement
-
-- **AI Craftsmanship** — Documented AI development process including planning, prompting strategies, model choices, testing workflows, and iteration logs (via `HOW_WE_BUILT.md`)
 
 ---
 
@@ -69,133 +57,121 @@ Projects will be evaluated through a structured multi-phase process combining te
 
 ### Evaluation Phases
 
-**Submission Review**  
+**Submission Review**
 Judges independently review code, documentation, and demo videos
 
-**Live Demonstrations**  
+**Live Demonstrations**
 Teams present their projects and answer technical questions from judges
 
-**Scoring & Deliberation**  
+**Scoring & Deliberation**
 Judges complete individual scoring, then meet to calibrate and finalize rankings
 
-**Results Announcement**  
+**Results Announcement**
 Winners announced with feedback highlights for all teams
 
 ### Scoring Methodology
 
-Each criterion is scored on a 1-5 scale:
+Each judge scores every category on a 1-5 scale. All 5 categories are weighted equally at 20%.
 
-- 5 (Exceptional): Exceeds expectations, innovative approach, could be production-ready
-- 4 (Very Good): Strong implementation with minor areas for improvement
-- 3 (Good): Meets requirements with solid execution
-- 2 (Basic): Functional but lacks polish or depth
-- 1 (Needs Work): Incomplete or significant issues
+- 5 (High): Best possible — see category descriptors
+- 4: Strong with minor gaps
+- 3: Meets expectations, solid execution
+- 2: Functional but lacking
+- 1 (Low): Minimal — see category descriptors
 
-Final scores are calculated as weighted averages. Bonus points (up to +1 total) may be awarded for: exceptional use of partner technologies (Anam, Thymia), use of multiple Agora products, features that increase learner engagement, and **AI Craftsmanship** (documented AI development process via `HOW_WE_BUILT.md`).
+Final scores are calculated as a simple average of the 5 category scores (maximum 5 points). A bonus of up to +1 may be awarded for Agora ConvoAI integration.
 
 ---
 
 ## Scoring Categories
 
-### Innovation (15%)
+### Technology Use (20%)
 
-_Originality of the language learning concept and creative use of AI agent capabilities_
+_Breadth and depth of technologies combined in the project_
 
-| Score | Criteria    | Description                                                                                                              |
-| ----- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 5     | Exceptional | Novel approach not seen in existing language learning tools; creative combination of technologies that unlocks new possibilities |
-| 4     | Very Good   | Fresh take on language learning with a distinctive angle; goes beyond obvious use cases                                  |
-| 3     | Good        | Solid concept with some original elements; applies existing ideas in a reasonable new context                             |
-| 2     | Basic       | Straightforward application of the starter template with minimal creative extension                                       |
-| 1     | Needs Work  | No meaningful differentiation from the default starter project                                                            |
+| Score | Description                                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| 5     | Multiple technologies combined effectively (STT, TTS, LLMs, Avatars, etc.); thoughtful integration of diverse providers |
+| 4     | Several technologies integrated well with minor gaps in depth                                                            |
+| 3     | Reasonable technology stack with some variety; solid but not ambitious                                                   |
+| 2     | Limited technology use; mostly a single provider or surface-level integration                                            |
+| 1     | Single technology/provider used with minimal integration effort                                                          |
 
-### Functionality (20%)
+### Relevancy (20%)
 
-_How well the language learning agent works — conversation quality, accuracy, and reliability_
+_How relevant the project is for Preply and language learning_
 
-| Score | Criteria    | Description                                                                                                              |
-| ----- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 5     | Exceptional | Agent handles multi-turn conversations flawlessly; graceful error recovery; works reliably across target languages         |
-| 4     | Very Good   | Conversations feel natural with minor rough edges; core features work consistently                                         |
-| 3     | Good        | Main learning flow works end-to-end; occasional issues but recoverable                                                    |
-| 2     | Basic       | Core conversation works but breaks on edge cases; limited error handling                                                  |
-| 1     | Needs Work  | Agent frequently fails, doesn't respond, or produces incorrect/incoherent output                                          |
+| Score | Description                                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| 5     | Could be added to the Preply product tomorrow; directly addresses a real language learning need                          |
+| 4     | Highly relevant with a clear path to product integration; minor gaps in applicability                                    |
+| 3     | Relevant to language learning with reasonable connection to Preply's mission                                             |
+| 2     | Loosely connected to language learning; relevancy to Preply is a stretch                                                 |
+| 1     | Not relevant for Preply or language learning                                                                             |
 
-### Impact (5%)
+### Product Scope (20%)
 
-_Potential to improve real-world language learning outcomes_
+_Scale of the problem being addressed_
 
-| Score | Criteria    | Description                                                                                                              |
-| ----- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 5     | Exceptional | Addresses a genuine gap in language learning; clear path to real learner improvement; could change how people practice    |
-| 4     | Very Good   | Targets a real learner need with a compelling approach; would meaningfully help a specific audience                        |
-| 3     | Good        | Useful for language practice with clear learning value; incremental improvement over existing tools                        |
-| 2     | Basic       | Some learning value but the connection to real outcomes is thin                                                            |
-| 1     | Needs Work  | No clear path to improving language learning; feels like a tech demo without educational purpose                           |
+| Score | Description                                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| 5     | Aims to solve a global problem affecting millions of language learners                                                   |
+| 4     | Targets a significant audience with broad applicability                                                                  |
+| 3     | Addresses a meaningful problem for a moderate-sized audience                                                             |
+| 2     | Solves a problem for a limited audience or narrow use case                                                               |
+| 1     | Addresses a niche problem with minimal scale potential                                                                   |
 
-### Technical Execution (20%)
+### Presentation & Demo (20%)
 
-_Code quality, architecture decisions, and effective integration of Agora_
+_Quality of the pitch and live demonstration_
 
-| Score | Criteria    | Description                                                                                                              |
-| ----- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 5     | Exceptional | Clean architecture; effective use of Agora APIs; well-structured code; thoughtful error handling and edge cases            |
-| 4     | Very Good   | Solid code organization; good Agora integration; minor areas where structure could improve                                 |
-| 3     | Good        | Working integration with reasonable code structure; some rough spots but fundamentally sound                                |
-| 2     | Basic       | Code works but is disorganized; Agora integration is minimal or uses only basic features                                   |
-| 1     | Needs Work  | Broken or incomplete integration; significant code quality issues; copy-paste without understanding                         |
+| Score | Description                                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| 5     | Live demo, great pitch ready for YCombinator; compelling storytelling, smooth demonstration, handles questions well      |
+| 4     | Strong presentation with a working live demo; minor rough edges in delivery                                              |
+| 3     | Decent presentation with demo (live or recorded); gets the point across                                                  |
+| 2     | Presentation covers the basics but demo is limited or pre-recorded only                                                  |
+| 1     | Submitted and presented but no live demo                                                                                 |
 
-### Documentation and Ease of Testing (20%)
+### Quality (20%)
 
-_Quality of documentation and how easily judges can test the language learning experience_
+_Overall project quality including UX, bugs, and AI craftsmanship_
 
-| Score | Criteria    | Description                                                                                                              |
-| ----- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 5     | Exceptional | Judges can test in under 2 minutes; comprehensive README; clear setup steps; demo video shows key features                |
-| 4     | Very Good   | Well-documented with minor gaps; judges can get it running with minimal troubleshooting                                    |
-| 3     | Good        | README covers setup and usage; judges can test but may need to figure out a few steps                                      |
-| 2     | Basic       | Some documentation exists but missing key setup steps or environment details; testing requires guesswork                   |
-| 1     | Needs Work  | No README, no demo, or documentation is too incomplete to test without contacting the team                                 |
+| Score | Description                                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| 5     | Well thought-out UX, no bugs during live demo, good quality project. Includes documented AI development process (`HOW_WE_BUILT.md`) with prompts, model choices, and iteration. |
+| 4     | Polished experience with minor rough edges. Some documentation of AI workflow.                                           |
+| 3     | Functional with decent UX. Basic quality throughout.                                                                     |
+| 2     | Works but clunky. Noticeable bugs or UX issues.                                                                          |
+| 1     | Barely working, clunky UX, significant quality issues.                                                                   |
 
-### User Experience (20%)
+### Bonus. Agora ConvoAI Integration (up to +1)
 
-_Quality of the learner experience — natural conversation flow, helpful feedback, and engaging interaction_
+_Teams that integrate Agora Conversational AI into their project earn up to 1 bonus point_
 
-| Score | Criteria    | Description                                                                                                              |
-| ----- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
-| 5     | Exceptional | Conversation feels natural and engaging; learner gets helpful, timely feedback; UI is polished and intuitive               |
-| 4     | Very Good   | Good conversational flow with useful feedback; UI is clean with minor polish opportunities                                 |
-| 3     | Good        | Functional learner experience; feedback is present but could be more natural or timely                                     |
-| 2     | Basic       | Interaction works but feels robotic or confusing; limited feedback to the learner                                          |
-| 1     | Needs Work  | Poor or broken user flow; no meaningful feedback; learner wouldn't know what to do                                         |
-
-### Bonus. AI Craftsmanship (up to +1)
-
-_How intentionally and skillfully the team used AI as a development tool, as documented in their `HOW_WE_BUILT.md`_
-
-| Score | Criteria    | Description                                                                                                                                          |
-| ----- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| +1.0  | Exceptional | Comprehensive build log with specific prompts, clear model selection rationale, evidence of test-driven or documentation-driven AI workflow, and honest reflection on what didn't work. Judges can learn from this team's process. |
-| +0.75 | Very Good   | Solid documentation of AI workflow — covers planning, prompting, and iteration with concrete examples. Shows intentional model/tool choices.          |
-| +0.5  | Good        | Includes a HOW_WE_BUILT.md with useful detail on AI tools used and general approach, but lacks specific examples or iteration history.                |
-| +0.25 | Basic       | Brief mention of AI tools used with minimal detail on process or decision-making.                                                                    |
-| +0    | Not Present | No HOW_WE_BUILT.md or no meaningful documentation of AI development process.                                                                         |
+| Score | Description                                                                                                              |
+| ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| +1.0  | Deep, effective integration of Agora ConvoAI as a core part of the project; demonstrates strong understanding of the platform |
+| +0.75 | Solid ConvoAI integration with meaningful use beyond basic setup                                                         |
+| +0.5  | Working ConvoAI integration that adds value to the project                                                               |
+| +0.25 | Basic ConvoAI integration; minimal use or largely unchanged from starter template                                        |
+| +0    | No Agora ConvoAI integration                                                                                             |
 
 ---
 
 ## Scoring Sheet
 
-| Team Name | Innovation (15%) | Functionality (20%) | Impact (5%) | Technical Execution (20%) | Documentation and Ease of Testing (20%) | User Experience (20%) | AI Craftsmanship Bonus | Total Score | Notes |
-| --------- | ---------------- | ------------------- | ----------- | ------------------------- | --------------------------------------- | --------------------- | ---------------------- | ----------- | ----- |
-|           |                  |                     |             |                           |                                         |                       |                        |             |       |
+| Team Name | Technology Use (20%) | Relevancy (20%) | Product Scope (20%) | Presentation & Demo (20%) | Quality (20%) | Agora ConvoAI Bonus | Total Score | Notes |
+| --------- | -------------------- | ---------------- | ------------------- | ------------------------- | ------------- | -------------------- | ----------- | ----- |
+|           |                      |                  |                     |                           |               |                      |             |       |
 
 ## Final Score Calculation
 
-- Each category score (1-5) is multiplied by its percentage weight
-- The weighted scores are summed to calculate the final score (maximum 5 points)
-- A single bonus pool of up to **+1 point total** is shared across all bonus criteria: AI Craftsmanship, use of multiple Agora products, third-party API integrations, and learner engagement features
-- Judges award one combined bonus score (0 to +1) considering all bonus factors together
-- Maximum possible score: **6/5** (5 base + 1 bonus)
+- Each judge scores every category 1-5
+- All 5 categories are weighted equally at 20%
+- The category scores are averaged to produce the base score (maximum 5 points)
+- A bonus of up to **+1 point** is awarded for Agora ConvoAI integration
+- Maximum possible score: **6** (5 base + 1 bonus)
 
 ## Feedback Section
 
