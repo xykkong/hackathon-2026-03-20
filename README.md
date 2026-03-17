@@ -71,7 +71,7 @@ Build AI-powered language learning experiences using Agora's Conversational AI E
 
 💡 Need inspiration? Check out the [Thought Starters](./Thought_Starters.md) for project ideas.
 
-### Recommended Technologies
+### Technology Stack
 
 - Agora Conversational AI Engine
 - Agora RTC SDK
