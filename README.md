@@ -33,14 +33,13 @@ Everything you need to get an Agora Conversational voice or video AI agent runni
 
 **Mentoring Rooms (Friday only):**
 
-| Room | Mentor |
-|------|--------|
-| Power People's Progress A | Agora (Ben) |
-| Power People's Progress B | OpenAI (Max) |
-| Portuguese | Thymia (Borys Pratsiuk) |
-| French | Anam (Borys Pratsiuk) |
-| Catalan | AWS (Borys Pratsiuk) |
-| Spanish & Ukrainian | Preply (Borys Pratsiuk) |
+| Room | Company | Mentors |
+|------|---------|---------|
+| Power People's Progress A | Agora | Ben Weekes, Craig D'Agnese |
+| Power People's Progress B | OpenAI | Maximilian Hudlberger |
+| Portuguese | Thymia | Stefano, George |
+| Catalan | AWS | Daz Akbarov, Max Ivashchenko |
+| Spanish & Ukrainian | Preply | Andrii Sherepa, Sviatoslav Yaremko |
 
 ### Saturday, March 21
 
@@ -61,13 +60,17 @@ Everything you need to get an Agora Conversational voice or video AI agent runni
 
 ## 🎯 **Theme: AI Agents for NextGen Language Learning**
 
-Build AI-powered language learning experiences using Agora's Conversational AI Engine. Create voice AI agents that help people learn languages through real-time conversation, pronunciation practice, cultural immersion, and personalized feedback — optionally enhanced with video avatars (Anam) and voice biomarkers (Thymia).
+This is your opportunity to create solutions that help learners progress faster, understand their growth clearly, and speak with confidence in everyday situations.
 
-### Focus Areas
+You'll get hands-on access to technologies from Agora, OpenAI, AWS, Anam, and Thymia to prototype intelligent systems that push applied GenAI forward.
 
-- Visualizing Learning Progress — Track and display learner advancement with AI-driven analytics
-- Accelerating Learning with Agents — Build AI tutors that adapt to individual learning styles and pace
-- Live Learning & Real-Time Context — Create immersive conversational experiences with real-time feedback
+### Challenge Areas
+
+Teams can work across one or more of the following tracks:
+
+- **Visualizing Learning Progress** — Make growth measurable — track skills, confidence, and progress in ways learners actually understand.
+- **Accelerating Learning with Agents** — Build personalized practice systems with intelligent feedback and coordinated agent workflows.
+- **Live Learning & Real-Time Context** — Design systems that learn from live conversations, media, or real-world scenarios.
 
 💡 Need inspiration? Check out the [Thought Starters](./Thought_Starters.md) for project ideas.
 
@@ -84,17 +87,20 @@ Build AI-powered language learning experiences using Agora's Conversational AI E
 
 ## 🔧 **Project Requirements & Constraints**
 
-### Recommended Technologies
+### Technologies Available During the Hackathon
 
-The following Agora products are available to all teams. Integrating Agora ConvoAI earns a bonus point (see [Judging Criteria](#judging-criteria)).
+The following technologies are available to all teams. Deeply integrating Agora ConvoAI earns up to +5 bonus points (see [Judging Criteria](#judging-criteria)).
 
 | Technology                  | Description                                             | Documentation                                                                |
 | --------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Agora Conversational AI** | Voice AI agents with real-time STT → LLM → TTS pipeline | [Docs](https://docs.agora.io/en/conversational-ai/overview/product-overview) |
 | **Agora RTC SDK**           | Real-time audio/video calling and streaming             | [Docs](https://docs.agora.io/en/video-calling/overview/product-overview)     |
 | **Agora RTM (Signaling)**   | Real-time messaging, presence, and data channels        | [Docs](https://docs.agora.io/en/signaling/overview/product-overview)         |
-| **Agora App Builder**       | No-code video calling experiences                       | [App Builder](https://appbuilder.agora.io/)                                  |
+| **Agora App Builder**       | No-code video calling experiences                       | [Docs](https://appbuilder.agora.io/)                                         |
 | **Agora Cloud Recording**   | Record calls and streams in the cloud                   | [Docs](https://docs.agora.io/en/cloud-recording/overview/product-overview)   |
+| **OpenAI API**              | Text generation, embeddings, speech, and image models via a unified REST API | [Docs](https://platform.openai.com/docs) |
+| **Anam**                    | Real-time AI avatars — embed lifelike interactive digital humans with streaming video and natural conversation | [Docs](https://docs.anam.ai) |
+| **Thymia**                  | Voice biomarkers API that analyzes speech patterns to surface cognitive and mental health insights | [Docs](https://docs.thymia.ai) |
 
 ### Rules
 
@@ -105,7 +111,7 @@ The following Agora products are available to all teams. Integrating Agora Convo
 
 ### Bonus Point Opportunities
 
-- ⭐ **Agora ConvoAI Integration** — Integrate Agora Conversational AI for up to +1 bonus point
+- ⭐ **Agora ConvoAI Integration** — Deeply integrate Agora Conversational AI for up to +5 bonus points
 
 Teams are also encouraged to integrate **Anam Video Avatars** and **Thymia Voice Biomarkers** to enhance their projects — these won't earn separate bonus points but can strengthen your scores across all categories.
 
@@ -214,7 +220,7 @@ This doesn't need to be long — a few paragraphs with concrete examples is enou
 
 ## 🏆 **Judging Criteria**
 
-Each judge scores every category 1-5. All categories are weighted equally at 20%.
+Each judge scores every category 1–5. The final score is the **sum** of all 5 category scores (5–25 points).
 
 | Category | 1 (Low) | 5 (High) |
 |----------|---------|----------|
@@ -224,9 +230,9 @@ Each judge scores every category 1-5. All categories are weighted equally at 20%
 | **Presentation & Demo** | Submitted and presented but no live demo | Live demo, great pitch ready for YCombinator |
 | **Quality** | Barely working, clunky UX | Well thought-out UX, no bugs, good quality project. Includes AI Craftsmanship (`HOW_WE_BUILT.md`) |
 
-⭐ **Bonus: Agora ConvoAI Integration** (up to +1) — Teams that integrate Agora Conversational AI earn up to 1 bonus point.
+⭐ **Bonus: Agora ConvoAI Integration** (up to +5) — Teams that deeply integrate Agora Conversational AI as a core part of their project earn up to 5 bonus points.
 
-**Maximum score: 6** (5 base + 1 Agora bonus)
+**Maximum score: 30** (25 base + 5 Agora bonus)
 
 ### Judging Panel
 

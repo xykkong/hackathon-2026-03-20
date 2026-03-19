@@ -2,7 +2,7 @@
 
 ## Overview
 
-This rubric provides a structured framework for evaluating hackathon submissions. Each project will be scored across 5 categories on a scale of 1-5, with specific criteria for each score level. All categories are weighted equally at 20%.
+This rubric provides a structured framework for evaluating hackathon submissions. Each project will be scored across 5 categories on a scale of 1-5, with specific criteria for each score level. The final score is the sum of all category scores (5–25 points), plus up to 5 bonus points for deep Agora technology integration.
 
 ---
 
@@ -71,7 +71,7 @@ Winners announced with feedback highlights for all teams
 
 ### Scoring Methodology
 
-Each judge scores every category on a 1-5 scale. All 5 categories are weighted equally at 20%.
+Each judge gives a 1-5 score to a project for each category.
 
 - 5 (High): Best possible — see category descriptors
 - 4: Strong with minor gaps
@@ -79,13 +79,13 @@ Each judge scores every category on a 1-5 scale. All 5 categories are weighted e
 - 2: Functional but lacking
 - 1 (Low): Minimal — see category descriptors
 
-Final scores are calculated as a simple average of the 5 category scores (maximum 5 points). A bonus of up to +1 may be awarded for Agora ConvoAI integration. Teams are also encouraged to integrate Anam and Thymia to strengthen their scores across all categories.
+The final score is the **sum** of all 5 category scores, giving a base range of **5–25 points**. A bonus of up to **+5 points** may be awarded for deep Agora ConvoAI integration, for a maximum possible score of **30 points**. Teams are also encouraged to integrate Anam and Thymia to strengthen their scores across all categories.
 
 ---
 
 ## Scoring Categories
 
-### Technology Use (20%)
+### Technology Use
 
 _Breadth and depth of technologies combined in the project_
 
@@ -97,7 +97,7 @@ _Breadth and depth of technologies combined in the project_
 | 2     | Limited technology use; mostly a single provider or surface-level integration                                            |
 | 1     | Single technology/provider used with minimal integration effort                                                          |
 
-### Relevancy (20%)
+### Relevancy
 
 _How relevant the project is for Preply and language learning_
 
@@ -109,7 +109,7 @@ _How relevant the project is for Preply and language learning_
 | 2     | Loosely connected to language learning; relevancy to Preply is a stretch                                                 |
 | 1     | Not relevant for Preply or language learning                                                                             |
 
-### Product Scope (20%)
+### Product Scope
 
 _Scale of the problem being addressed_
 
@@ -121,7 +121,7 @@ _Scale of the problem being addressed_
 | 2     | Solves a problem for a limited audience or narrow use case                                                               |
 | 1     | Addresses a niche problem with minimal scale potential                                                                   |
 
-### Presentation & Demo (20%)
+### Presentation & Demo
 
 _Quality of the pitch and live demonstration_
 
@@ -133,7 +133,7 @@ _Quality of the pitch and live demonstration_
 | 2     | Presentation covers the basics but demo is limited or pre-recorded only                                                  |
 | 1     | Submitted and presented but no live demo                                                                                 |
 
-### Quality (20%)
+### Quality
 
 _Overall project quality including UX, bugs, and AI craftsmanship_
 
@@ -147,35 +147,30 @@ _Overall project quality including UX, bugs, and AI craftsmanship_
 
 ### Bonus Points
 
-#### Agora ConvoAI Integration (up to +1)
+#### Agora ConvoAI Integration (up to +5)
 
-_Teams that integrate Agora Conversational AI into their project earn up to 1 bonus point_
+_Teams that deeply integrate Agora Conversational AI as a core part of their project earn up to 5 bonus points_
 
 | Score | Description                                                                                                              |
 | ----- | ------------------------------------------------------------------------------------------------------------------------ |
-| +1.0  | Deep, effective integration of Agora ConvoAI as a core part of the project; demonstrates strong understanding of the platform |
-| +0.75 | Solid ConvoAI integration with meaningful use beyond basic setup                                                         |
-| +0.5  | Working ConvoAI integration that adds value to the project                                                               |
-| +0.25 | Basic ConvoAI integration; minimal use or largely unchanged from starter template                                        |
+| +5  | Deep, effective integration of Agora ConvoAI as a core part of the project; demonstrates strong understanding of the platform |
+| +2.5  | Working ConvoAI integration that adds value to the project                                                                           |
 | +0    | No Agora ConvoAI integration                                                                                             |
-
-Teams are also encouraged to integrate **Anam Video Avatars** and **Thymia Voice Biomarkers** to enhance their projects — these won't earn separate bonus points but can strengthen scores across all categories.
 
 ---
 
 ## Scoring Sheet
 
-| Team Name | Technology Use (20%) | Relevancy (20%) | Product Scope (20%) | Presentation & Demo (20%) | Quality (20%) | Agora ConvoAI Bonus | Total Score | Notes |
-| --------- | -------------------- | ---------------- | ------------------- | ------------------------- | ------------- | -------------------- | ----------- | ----- |
-|           |                      |                  |                     |                           |               |                      |             |       |
+| Team Name | Technology Use (1-5) | Relevancy (1-5) | Product Scope (1-5) | Presentation & Demo (1-5) | Quality (1-5) | Agora ConvoAI Bonus (0/+2.5/+5) | Total Score (/30) | Notes |
+| --------- | -------------------- | ---------------- | ------------------- | ------------------------- | ------------- | -------------------------------- | ----------------- | ----- |
+|           |                      |                  |                     |                           |               |                                  |                   |       |
 
 ## Final Score Calculation
 
-- Each judge scores every category 1-5
-- All 5 categories are weighted equally at 20%
-- The category scores are averaged to produce the base score (maximum 5 points)
-- A bonus of up to **+1 point** is awarded for Agora ConvoAI integration
-- Maximum possible score: **6** (5 base + 1 bonus)
+- Each judge scores every category 1–5
+- Final base score = sum of all 5 category scores (**5–25 points**)
+- A bonus of up to **+5 points** is awarded for deep Agora ConvoAI integration
+- Maximum possible score: **30 points** (25 base + 5 bonus)
 
 ## Feedback Section
 
