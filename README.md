@@ -246,7 +246,7 @@ Each judge scores every category 1–5. The final score is the **sum** of all 5 
 
 ## ❓ **Need Help?**
 
-For any questions, join our [Discord](https://discord.gg/kS7etQFKC).
+For any questions, join our [Discord](https://discord.gg/JbSwPKCE).
 
 For urgent matters during the event, reach out to the organizers directly at the venue.
 
