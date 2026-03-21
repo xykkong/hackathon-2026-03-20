@@ -1,0 +1,27 @@
+# Package tarballs
+*.tgz
+
+# npm
+package-lock.json
+
+# Thymia/Shen variants (just .env config on base clients)
+react-video-client-thymia/
+react-voice-client-thymia/
+
+# Local secrets and virtual environments
+src/simple-backend/.env
+src/simple-backend/venv/
+src/simple-backend/__pycache__/
+src/simple-backend/core/__pycache__/
+
+# Frontend local build/deps
+src/react-video-client-avatar/node_modules/
+src/react-video-client-avatar/.next/
+src/react-video-client-avatar/.env.local
+
+# Embedded repo/tooling metadata that should not be submitted
+.git/
+.codex/
+
+# macOS metadata
+.DS_Store
