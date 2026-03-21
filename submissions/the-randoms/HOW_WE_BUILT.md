@@ -14,9 +14,13 @@ Build an AI speaking coach (LexiCoach) where learners practice target vocabulary
 
 ### Runtime AI (inside the product)
 
-- Conversational LLM: OpenAI-compatible provider configured by environment variables (`VIDEO_*` in backend env)
-- Why: provider-agnostic setup from Agora sample architecture, easy switching without code rewrite
-- Used for: dialogue generation, corrective feedback, and vocabulary coaching behavior
+- Conversational LLM: OpenAI `gpt-4o-mini`
+- Realtime/agent layer: Agora RTC + Agora RTM + Agora AI Agent API
+- TTS: ElevenLabs
+- Avatar: Anam
+- THYMIA: integrated during development but disabled in demo flow due to Cloudflare `429` errors
+- Why: fast low-latency voice loop with configurable providers through `VIDEO_*` environment variables
+- Used for: dialogue generation, corrective feedback, speech synthesis, and avatar-driven coaching
 
 ## Prompting Strategy
 

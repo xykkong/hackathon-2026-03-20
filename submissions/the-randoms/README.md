@@ -15,7 +15,7 @@ LexiCoach is a real-time vocabulary practice AI coach built for the Preply hacka
 submissions/the-randoms/
 ├── README.md
 ├── HOW_WE_BUILT.md
-├── demo.mp4
+├── demo.txt
 ├── assets/                  # Screenshots and brand assets
 ├── docs/                    # Project documentation
 ├── design/                  # Design notes and references
@@ -76,14 +76,18 @@ Frontend: `http://localhost:8084`
 ## Tech Stack
 
 - Frontend: Next.js 16, React, TypeScript, Tailwind CSS
-- Realtime: Agora RTC + Agora RTM
+- Realtime transport: Agora RTC
+- Realtime signaling/events: Agora RTM
+- Agent orchestration: Agora AI Agent API (Agora Conversational AI)
 - Backend: Python + Flask (`src/simple-backend`)
-- AI orchestration: Agora Conversational AI Agent API
-- Provider integrations: configured via environment variables
+- LLM: OpenAI `gpt-4o-mini`
+- Text-to-speech: ElevenLabs TTS
+- Avatar provider: Anam avatar
+- Optional biomarker integration: THYMIA (disabled for demo due to Cloudflare `429` errors)
 
 ## Demo
 
-See `demo.mp4` in this folder.
+See `demo.txt` in this folder for the demo video link.
 
 ## Pre-Submit Checklist
 
@@ -91,7 +95,7 @@ See `demo.mp4` in this folder.
 - [x] `README.md` includes setup and run instructions
 - [x] `HOW_WE_BUILT.md` documents AI process, prompts, model choices, and iteration
 - [x] Source code is organized under `src/`
-- [ ] `demo.mp4` contains a real demo recording (current file is placeholder and must be replaced)
+- [x] `demo.txt` includes the demo video link
 
 ## Judge Notes
 

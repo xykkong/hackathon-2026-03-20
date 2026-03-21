@@ -22,6 +22,6 @@ All runnable project code is under:
 
 ## Notes
 
-- `demo.mp4` is kept at repository root for submission requirements.
+- `demo.txt` is kept at repository root and contains the demo video link.
 - Main setup instructions are maintained in `README.md`.
 - Final submission checks are tracked in `docs/SUBMISSION_CHECKLIST.md`.
